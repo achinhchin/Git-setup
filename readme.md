@@ -63,7 +63,7 @@ Copy this command and append to file that you open in [1.1](./readme.md#11-open-
 
         find = "!f() { git log --pretty=format:\"%h %cd [%cn] %s%d\" --date=relative -S'pretty' -S\"$@\" | peco | awk '{print $1}' | xargs -I {} git diff {}^ {}; }; f"
 
-        rao = remote add origin
+        rma = remote add origin
 
         pa = push --all
         pt = push --tags
@@ -94,3 +94,5 @@ brew install tig
 ### **2.2. Usage**
 
 You can find usage solution by go to directory that have repository then type "*Tig*" and press "*h*"
++
+
