@@ -38,10 +38,13 @@ Hope you canget something on this repository
 vim ~/.gitconfig
 ```
 
-### **1.2 Add alias to .gitconfig file**
+### **1.2 Add config to .gitconfig file**
 Copy this command and append to file that you open in [1.1](./readme.md#11-open-gitconfig-file)
 ```
+[core]
+        editor = nvim
 [alias]
+        i = init
         a = add
         aa = add .
 
@@ -64,6 +67,10 @@ Copy this command and append to file that you open in [1.1](./readme.md#11-open-
 
         pa = push --all
         pt = push --tags
+
+[diff]
+        tool = nvimdiff
+
 ```
 
 ### **1.3 Usage**
