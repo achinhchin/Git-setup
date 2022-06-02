@@ -20,6 +20,9 @@ Hope you canget something on this repository
 - Linux
 - macOS
 
+### **Package requirement**
+- [Brew](https://github.com/chinhchin/Brew-setup.git)
+
 ### **Contents**
 #### **1. [aliases (shortcuts) in Git](./readme.md#1-aliases-shortcuts-in-git)**
 1. [Open .gitconfig file](./readme.md#11-open-gitconfig-file)
@@ -83,6 +86,7 @@ You can add or see what alias that can use from this
 ## **2. Tig**
 ### **2.1. Install Tig**
 
+
 ```
 brew install tig
 ```
@@ -94,5 +98,3 @@ brew install tig
 ### **2.2. Usage**
 
 You can find usage solution by go to directory that have repository then type "*Tig*" and press "*h*"
-+
-
