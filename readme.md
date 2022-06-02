@@ -1,4 +1,4 @@
-# **My Git Setup**
+# **My Git setup**
 This is my git setup for get more productivity and speed in git workflow.
 Hope you canget something on this repository
 
