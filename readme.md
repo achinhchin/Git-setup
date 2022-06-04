@@ -50,6 +50,7 @@ Copy this command and append to file that you open in [1.1](./readme.md#11-open-
         i = init
         a = add
         aa = add .
+        rs = restore
 
         st = status
 
@@ -70,7 +71,6 @@ Copy this command and append to file that you open in [1.1](./readme.md#11-open-
 
         pa = push --all
         pt = push --tags
-
 [diff]
         tool = nvimdiff
 
@@ -98,3 +98,4 @@ brew install tig
 ### **2.2. Usage**
 
 You can find usage solution by go to directory that have repository then type "*Tig*" and press "*h*"
+
