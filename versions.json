@@ -1,7 +1,7 @@
 {
     "versions": {
         "0.0": {
-            "release": false,
+            "release": true,
             "features": [
                 "Git setup"
             ],
