@@ -57,6 +57,7 @@ Copy this command and append to file that you open in [1.1](./readme.md#11-open-
 
         ci = commit
         cim = commit -m
+        t = tag
 
         lp = log --pretty=format:\"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)\" --graph --date=relative --decorate --all
         llog = log --graph --name-status --pretty=format:\"%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset\" --date=relative
