@@ -50,7 +50,8 @@ Copy this command and append to file that you open in [1.1](./readme.md#11-open-
         i = init
         a = add
         aa = add .
-        rs = restore
+        rst = restore
+        rsta = restore .
 
         st = status
 
@@ -59,6 +60,10 @@ Copy this command and append to file that you open in [1.1](./readme.md#11-open-
 
         lp = log --pretty=format:\"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)\" --graph --date=relative --decorate --all
         llog = log --graph --name-status --pretty=format:\"%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset\" --date=relative
+
+        d = diff
+
+        m = merge
 
         br = branch
         bra = branch -a

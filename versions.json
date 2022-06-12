@@ -1,0 +1,27 @@
+{
+    "versions": {
+        "0.0": {
+            "release": false,
+            "features": [
+                "Git setup"
+            ],
+            "updates": [
+                "init"
+            ],
+            "development version": {
+                "beta": {
+                    "0.0.b.0": [
+                        "[Git setup]"
+                    ]
+                }
+            }
+        }
+    },
+    "features": {
+        "future": {},
+        "present": {
+            "Git setup": "0.0 -> now"
+        },
+        "past": {}
+    }
+}
